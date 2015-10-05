@@ -1,0 +1,35 @@
+{
+    "name": "kfosoft/php-int-enum-x64",
+    "description": "PHP/Mysql Integer Types (Exact Value) for x64 platforms",
+    "keywords": [
+        "php",
+        "enum",
+        "mysql integer types",
+        "mysql int types",
+        "sql integer types",
+        "sql int types",
+        "sql integer",
+        "sql int",
+        "php mysql integer types",
+        "php mysql int types",
+        "php sql integer types",
+        "php sql int types",
+        "php sql integer",
+        "php sql int",
+        "php enum"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Cyril Turkevich",
+            "email": "cyril.turkevich@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "kfosoft/php-abstract-enum": "*"
+    },
+    "autoload": {
+        "psr-4": {"kfosoft\\": ""}
+    }
+}
