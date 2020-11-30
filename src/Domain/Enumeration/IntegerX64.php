@@ -1,22 +1,12 @@
-# PHP/Mysql Integer Types (Exact Value) for x64 platforms
-## Installation
+<?php
+namespace KFOSOFT\Domain\Enumeration;
 
-Installation with Composer
+use KFOSOFT\Domain\Enumeration\AbstractEnumeration;
 
-Either run
-~~~
-    php composer.phar require --prefer-dist kfosoft/php-int-enum-x64:"*"
-~~~
-or add in composer.json
-~~~
-    "require": {
-            ...
-            "kfosoft/php-int-enum-x64" : "*"
-    }
-~~~
-
-## Types
-~~~
+/**
+ * PHP/Mysql Integer Types (Exact Value) for x64 platforms.
+ * @copyright (c) KFOSOFT <kfosoftware@gmail.com>
+ */
 class IntegerX64 extends AbstractEnumeration
 {
     public const ZERO                   = 0;
@@ -46,6 +36,3 @@ class IntegerX64 extends AbstractEnumeration
     public const BIGINT_UNSIGNED_MIN    = self::ZERO;
     public const BIGINT_UNSIGNED_MAX    = 18446744073709551615;
 }
-~~~
-
-Enjoy, guys!

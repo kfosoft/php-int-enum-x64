@@ -21,15 +21,15 @@
     "type": "library",
     "authors": [
         {
-            "name": "Cyril Turkevich",
-            "email": "cyril.turkevich@gmail.com"
+            "name": "Kyrylo Checherskyi",
+            "email": "kyrylo.checherskyi@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "kfosoft/php-abstract-enum": "*"
+        "php": ">=7.4.0",
+        "kfosoft/php-abstract-enum": "20.11"
     },
     "autoload": {
-        "psr-4": {"kfosoft\\": ""}
+        "psr-4": {"KFOSOFT\\": ""}
     }
 }
