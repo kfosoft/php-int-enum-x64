@@ -1,6 +1,7 @@
 {
     "name": "kfosoft/php-int-enum-x64",
     "description": "PHP/Mysql Integer Types (Exact Value) for x64 platforms",
+    "license": "MIT",
     "keywords": [
         "php",
         "enum",
