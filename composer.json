@@ -30,6 +30,6 @@
         "kfosoft/php-abstract-enum": "20.11"
     },
     "autoload": {
-        "psr-4": {"KFOSOFT\\": ""}
+        "psr-4": {"KFOSOFT\\": "src/"}
     }
 }
